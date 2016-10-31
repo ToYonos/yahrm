@@ -60,7 +60,7 @@ public class Program
 		run(context.getBean(deserializerClass).deserialize(arg));
 	}
 
-	public void run(CommandContext... commands)
+	private void run(CommandContext... commands)
 	{
 		this.commands = commands;
 		context.getBean(StandardRunner.class).run(commands);
