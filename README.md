@@ -4,7 +4,7 @@ As I really enjoyed the game [Human Resource Machine](http://tomorrowcorporation
 
 With a plugin system, the engine can handle various kind of objects. For now, it handles numbers (like in the original game) and `Vegetable`, a simple object model for proof-of-concept purpose.
 
-It's a not perfect work in progress, I just did it for fun actually.
+It's a not perfect, still a work in progress, I just did it for fun actually.
 
 ## Numbers example
 
