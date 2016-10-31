@@ -1,21 +1,15 @@
 package info.toyonos.yahrm.data;
 
-import info.toyonos.yahrm.common.ConversionUtils;
-import info.toyonos.yahrm.common.IllegalConversionException;
-
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.commons.beanutils.BeanUtilsBean;
 import org.apache.commons.collections4.list.FixedSizeList;
+
+import info.toyonos.yahrm.common.ConversionUtils;
+import info.toyonos.yahrm.common.IllegalConversionException;
 
 public abstract class DataHolder
 {
-	static
-	{
-		BeanUtilsBean.getInstance().getConvertUtils().register(true, false, 0);
-	}
-
 	private List<Object> data;
 	
 	public DataHolder(int size)
